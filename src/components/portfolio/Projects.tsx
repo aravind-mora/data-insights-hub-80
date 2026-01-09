@@ -22,7 +22,6 @@ const projects = [
       "This project focused on analyzing employee attrition and workforce patterns using HR data. I cleaned and transformed the dataset using Power Query and built an interactive Power BI dashboard with KPIs, slicers, and trend visualizations. The dashboard highlights attrition trends by department, job role, and tenure, helping identify potential retention issues.",
     skills: ["Power BI", "Data Cleaning", "Dashboard Design", "Data Visualization"],
     links: [
-      { label: "Power BI Dashboard", url: "#", icon: ExternalLink },
       { label: "GitHub Repository", url: "https://github.com/aravind-mora/data-analytics-portfolio/tree/main/hr-analytics-dashboard", icon: Github },
     ],
   },
