@@ -5,21 +5,33 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
-// ✅ import background image
-import background from "./assets/background.jpg";
+import desktopBg from "@/assets/background.jpg";
+import mobileBg from "@/assets/hero-mobile.jpg";
 
 const App = () => (
   <TooltipProvider>
     <Toaster />
     <Sonner />
 
-    {/* 🌌 Global Background Wrapper */}
-    <div
-      className="min-h-[100vh] bg-fixed bg-cover bg-center"
-      style={{ backgroundImage: `url(${background})` }}
-    >
-      {/* 🌑 Dark transparent overlay */}
-      <div className="min-h-[100vh] bg-black/70">
+    {/* 🌍 Global background wrapper */}
+    <div className="relative min-h-screen">
+      {/* 🖥️ Desktop background */}
+      <div
+        className="fixed inset-0 hidden md:block bg-cover bg-center"
+        style={{ backgroundImage: `url(${desktopBg})` }}
+      />
+
+      {/* 📱 Mobile background */}
+      <div
+        className="fixed inset-0 block md:hidden bg-cover bg-center"
+        style={{ backgroundImage: `url(${mobileBg})` }}
+      />
+
+      {/* 🌑 Dark overlay for readability */}
+      <div className="fixed inset-0 bg-black/60" />
+
+      {/* App content */}
+      <div className="relative z-10">
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
