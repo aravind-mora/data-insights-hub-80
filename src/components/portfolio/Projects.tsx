@@ -29,7 +29,7 @@ const projects = [
     icon: ShoppingCart,
     image: "/project-images/ecommerce-modeling.png",
     title: "E-Commerce Data Modeling & Analytics",
-    subtitle: "Completed",
+    subtitle: "Data Modeling & SQL",
     description:
       "In this project, I worked with a real-world e-commerce dataset to design an analytics-ready data model and perform multi-table SQL analysis. I analyzed customers, orders, order items, products, sellers, and payments. Based on business requirements, I identified fact and dimension tables and designed a star schema. Revenue was derived directly from transactional order item data rather than summary order tables. The analysis included seller performance, customer behavior, delivery outcomes, and payment methods using complex SQL joins and aggregations.",
     skills: ["Data Modeling", "SQL Joins", "Fact & Dimension Design", "Analytical Thinking", "ETL Concepts"],
