@@ -10,13 +10,13 @@ const contactLinks = [
   {
     icon: Github,
     label: "GitHub",
-    value: "https://github.com/aravind-mora",
+    value: "https://github.com/...",
     href: "https://github.com/aravind-mora",
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    value: "https://www.linkedin.com/in/aravind-mora-7a6191328",
+    value: "https://www.linkedin.com/...",
     href: "https://www.linkedin.com/in/aravind-mora-7a6191328",
   },
 ];
