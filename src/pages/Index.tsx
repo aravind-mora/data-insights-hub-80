@@ -4,7 +4,6 @@ import About from "@/components/portfolio/About";
 import Projects from "@/components/portfolio/Projects";
 import Skills from "@/components/portfolio/Skills";
 import Certifications from "@/components/portfolio/Certifications";
-import Articles from "@/components/portfolio/Articles";
 import Contact from "@/components/portfolio/Contact";
 import Footer from "@/components/portfolio/Footer";
 import useFadeInOnScroll from "@/hooks/useFadeInOnScroll";
@@ -28,9 +27,6 @@ const Index = () => {
         </div>
         <div className="fade-in-section">
           <Certifications />
-        </div>
-        <div className="fade-in-section">
-          <Articles />
         </div>
         <div className="fade-in-section">
           <Contact />

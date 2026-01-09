@@ -23,7 +23,7 @@ const contactLinks = [
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 bg-card">
+    <section id="contact" className="py-20 bg-transparent">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-center">
           Get In <span className="text-primary">Touch</span>

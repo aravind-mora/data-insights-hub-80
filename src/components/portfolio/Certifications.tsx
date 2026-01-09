@@ -9,7 +9,7 @@ const certifications = [
 
 const Certifications = () => {
   return (
-    <section id="certifications" className="py-20 bg-card">
+    <section id="certifications" className="py-20 bg-transparent">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-12 text-center">
           Courses & <span className="text-primary">Certifications</span>
