@@ -10,7 +10,7 @@ const projects = [
       "In this project, I analyzed a retail sales dataset to understand revenue trends, profitability, and regional performance. I used SQL to aggregate sales data, calculate revenue and profit metrics, and identify top-performing products and regions. Excel pivot tables and charts were used to create summary reports suitable for business stakeholders.",
     skills: ["SQL", "Joins", "Data Aggregation", "Excel Reporting", "Business Analysis"],
     links: [
-      { label: "GitHub Repository", url: "https://github.com/yourusername/sales-analysis", icon: Github },
+      { label: "GitHub Repository", url: "https://github.com/aravind-mora/data-analytics-portfolio/tree/main/sales-performance-analysis", icon: Github },
     ],
   },
   {
@@ -23,7 +23,7 @@ const projects = [
     skills: ["Power BI", "Data Cleaning", "Dashboard Design", "Data Visualization"],
     links: [
       { label: "Power BI Dashboard", url: "#", icon: ExternalLink },
-      { label: "GitHub Repository", url: "https://github.com/yourusername/hr-analytics", icon: Github },
+      { label: "GitHub Repository", url: "https://github.com/aravind-mora/data-analytics-portfolio/tree/main/hr-analytics-dashboard", icon: Github },
     ],
   },
   {
@@ -35,7 +35,7 @@ const projects = [
       "In this project, I worked with a real-world e-commerce dataset to design an analytics-ready data model and perform multi-table SQL analysis. I analyzed customers, orders, order items, products, sellers, and payments. Based on business requirements, I identified fact and dimension tables and designed a star schema. Revenue was derived directly from transactional order item data rather than summary order tables. The analysis included seller performance, customer behavior, delivery outcomes, and payment methods using complex SQL joins and aggregations.",
     skills: ["Data Modeling", "SQL Joins", "Fact & Dimension Design", "Analytical Thinking", "ETL Concepts"],
     links: [
-      { label: "GitHub Repository", url: "https://github.com/yourusername/ecommerce-analytics", icon: Github },
+      { label: "GitHub Repository", url: "https://github.com/aravind-mora/data-analytics-portfolio/tree/main/ecommerce-analytics-elt", icon: Github },
     ],
   },
 ];

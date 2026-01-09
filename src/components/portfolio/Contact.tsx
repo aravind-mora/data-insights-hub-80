@@ -5,19 +5,19 @@ const contactLinks = [
     icon: Mail,
     label: "Email",
     value: "yourmail@gmail.com",
-    href: "mailto:yourmail@gmail.com",
+    href: "aravindmora51@gmail.com",
   },
   {
     icon: Github,
     label: "GitHub",
     value: "github.com/yourusername",
-    href: "https://github.com/yourusername",
+    href: "https://github.com/aravind-mora",
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
     value: "linkedin.com/in/yourname",
-    href: "https://linkedin.com/in/yourname",
+    href: "https://www.linkedin.com/in/aravind-mora-7a6191328",
   },
 ];
 
