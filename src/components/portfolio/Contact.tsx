@@ -5,7 +5,7 @@ const contactLinks = [
     icon: Mail,
     label: "Email",
     value: "aravindmora51@gmail.com",
-    href: "aravindmora51@gmail.com",
+    href: "mailto:aravindmora51@gmail.com?subject=Contact%20from%20Portfolio",
   },
   {
     icon: Github,
@@ -36,10 +36,9 @@ const Contact = () => {
             <a
               key={index}
               href={link.href}
-              target="_blank"
-              rel="noopener noreferrer"
               className="flex items-center gap-3 bg-background border border-border rounded-lg px-6 py-4 hover:border-primary/50 transition-colors duration-300 w-full sm:w-auto"
             >
+
               <link.icon className="w-5 h-5 text-primary" />
               <div className="text-left">
                 <p className="text-xs text-muted-foreground">{link.label}</p>
