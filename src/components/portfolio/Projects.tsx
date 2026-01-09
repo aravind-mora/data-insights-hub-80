@@ -42,7 +42,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-20 bg-card">
+    <section id="projects" className="py-20 bg-transparent">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-center">
           Some Things I've <span className="text-primary">Worked On</span>
