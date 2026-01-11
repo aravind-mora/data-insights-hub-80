@@ -4,12 +4,12 @@ const certifications = [
   {
     title: "SQL (Basic)",
     platform: "HackerRank",
-    link: "https://www.hackerrank.com/certificates/YOUR_BASIC_LINK",
+    link: "https://www.hackerrank.com/certificates/1ed0154aa08b",
   },
   {
     title: "SQL (Intermediate)",
     platform: "HackerRank",
-    link: "https://www.hackerrank.com/certificates/YOUR_INTERMEDIATE_LINK",
+    link: "https://www.hackerrank.com/certificates/faa55b12fe1e",
   },
   {
     title: "Data Analysis with Excel",
